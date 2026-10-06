@@ -1,0 +1,37 @@
+# Tema warna aplikasi: abu baja galvalum dan oranye atap
+# Ganti nilai warna di sini bila ingin menyesuaikan dengan warna toko
+
+[theme]
+base = "light"
+primaryColor = "#E0601B"
+backgroundColor = "#F5F6F8"
+secondaryBackgroundColor = "#E9ECF0"
+textColor = "#1E2A36"
+borderColor = "#D3D8DF"
+linkColor = "#C2540F"
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#2B3846"
+dataframeHeaderTextColor = "#FFFFFF"
+dataframeBorderColor = "#D3D8DF"
+orangeColor = "#E0601B"
+chartCategoricalColors = ["#E0601B", "#3B4A5A", "#E8A33D", "#5B7A99", "#8C6D5A", "#2E7D4F"]
+font = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+headingFont = "Barlow Condensed:https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap"
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+metricValueFontWeight = 700
+
+[theme.sidebar]
+backgroundColor = "#1F2A36"
+secondaryBackgroundColor = "#2C3A48"
+textColor = "#E9EDF2"
+primaryColor = "#F28C3A"
+borderColor = "#3A4958"
+linkColor = "#F6A866"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+headless = true
